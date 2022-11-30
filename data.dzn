@@ -1,0 +1,21 @@
+dosen = {john, budi, joni, rani, dono};
+
+matkul = {web, spk, bio, web2, algo};
+
+hari = {senin, selasa, rabu, kamis, jumat};  
+
+dosen_matkul = array2d(dosen, matkul, [
+1, 1, 0, 0, 0, %john web spk
+0, 0, 1, 1, 1, %budi bio web2 algo
+1, 0, 1, 0, 1, %joni web bio algo
+1, 0, 0, 1, 0, %rani web web2
+0, 0, 0, 1, 1, %dono web2 algo
+]);
+
+dosen_hari = array2d(dosen, hari , [
+1, 1, 1, 0, 0, %john senin selasa rabu
+1, 0, 1, 0, 1, %budi senin rabu jumat
+1, 0, 0, 1, 0, %joni senin kamis
+1, 1, 1, 1, 1, %rani setiap hari
+1, 0, 0, 1, 0, %dono senin kamis
+]);

@@ -1,0 +1,5 @@
+{
+    "intermediate-solutions": false,
+    "num-solutions": 20,
+    "solver": "org.gecode.gecode@6.3.0"
+}
