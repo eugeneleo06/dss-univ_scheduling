@@ -1,0 +1,12 @@
+dosen = {john, joni, dono, rani, budi};
+
+matkul = {bio, spk, algo, web, web2};
+
+hari = {rabu, kamis, selasa, jumat, senin};
+
+dosen_matkul = array2d(1..5, 1..5, [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1,
+    0, 0, 1, 0, 0, 0, 0, 1, 1]);
+
+dosen_hari = array2d(1..5, 1..5, [1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1,
+    1, 1, 1, 1, 1, 0, 0, 1, 0]);
+

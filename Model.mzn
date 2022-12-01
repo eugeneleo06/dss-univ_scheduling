@@ -1,12 +1,5 @@
-% John mengajar web dan spk, di hari senin, selasa, rabu
-% Budi mengajar bio, web2, algo, di hari senin, rabu, jumat
-% Joni mengajar web dan bio, algo di hari senin, kamis
-% Rani mengajar web, web2 setiap hari
-% Dono mengajar web2, algo di hari senin, kamis
-% Asumsi dosen hanya bisa mengajar 1  mata kuliah dalam 1 hari
-
 include "globals.mzn";
-include "data.dzn";
+include "data_source.dzn";
 
 % DOSEN
 enum dosen;
@@ -18,10 +11,10 @@ enum matkul;
 enum hari;
 
 % Hubungan Dosen x Matkul
-array [dosen, matkul] of int : dosen_matkul;
+array [int, int] of int : dosen_matkul;
 
 % Hubungan Dosen x Hari
-array [dosen, hari] of int : dosen_hari;
+array [int, int] of int : dosen_hari;
 
 % Output Variable
 array [dosen, matkul, hari] of var 0..1 : solution;
