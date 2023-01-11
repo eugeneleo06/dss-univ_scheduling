@@ -21,9 +21,12 @@ Flask
 *require Python 3.6 (or higher)*
 
 ## High Level Illustration
-![Illustration Diagram](https://raw.githubusercontent.com/eugeneleo06/dss-univ_scheduling/main/Diagram.png)
+![enter image description here](https://raw.githubusercontent.com/eugeneleo06/dss-univ_scheduling/main/Diagram.png)
 
 ## How to Run
 Run this command to run the local server with port :5000
 
     flask -app main run
+
+## Paper Source
+https://www.researchgate.net/publication/319122545_PENJADWALAN_KULIAH_OTOMATIS_DENGAN_CONSTRAINT_PROGRAMMING
