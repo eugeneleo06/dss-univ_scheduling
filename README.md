@@ -27,3 +27,6 @@ Flask
 Run this command to run the local server with port :5000
 
     flask -app main run
+
+## Paper Source
+https://www.researchgate.net/publication/319122545_PENJADWALAN_KULIAH_OTOMATIS_DENGAN_CONSTRAINT_PROGRAMMING
