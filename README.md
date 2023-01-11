@@ -21,7 +21,7 @@ Flask
 *require Python 3.6 (or higher)*
 
 ## High Level Illustration
-![enter image description here](https://raw.githubusercontent.com/eugeneleo06/dss-univ_scheduling/main/Diagram.png)
+![Illustration Diagram](https://raw.githubusercontent.com/eugeneleo06/dss-univ_scheduling/main/Diagram.png)
 
 ## How to Run
 Run this command to run the local server with port :5000
