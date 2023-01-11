@@ -1,5 +1,10 @@
+
+from flask import Flask
+from flask import render_template
 import minizinc
 import pymzn
+
+app = Flask(__name__)
 
 
 # build .dzn file then use it in the model
@@ -51,8 +56,6 @@ for x in arr:
     if len(x)> 0 and x[0] == '1':
         finalArr.append(x)
 
-print(finalArr)
-
 thisDict = {
     "senin": [],
     "selasa": [],
@@ -66,6 +69,18 @@ for x in finalArr:
         y = x.split(" ")
         thisDict[y[3]].append(y[1] + " " + y[2])
 
+dataDict = {}
 for key, value in thisDict.items():
-    val = ' | '.join(value)
-    print(f'{key.capitalize(): <10}{val.title()}')
+    for index, val in enumerate(value) :
+        if index in dataDict:
+            arr = dataDict[index]
+            arr.append(val)
+            dataDict[index] = arr
+        else:
+            dataDict[index] = [val]
+
+print(dataDict)
+
+@app.route("/")
+def index():
+    return render_template('index.html', data=thisDict, dataDict=dataDict)

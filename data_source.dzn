@@ -1,8 +1,8 @@
-dosen = {joni, rani, dono, john, budi};
+dosen = {budi, joni, dono, rani, john};
 
-matkul = {bio, web2, spk, algo, web};
+matkul = {spk, algo, bio, web2, web};
 
-hari = {rabu, jumat, senin, selasa, kamis};
+hari = {jumat, selasa, kamis, rabu, senin};
 
 dosen_matkul = array2d(1..5, 1..5, [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1,
     0, 0, 1, 0, 0, 0, 0, 1, 1]);
