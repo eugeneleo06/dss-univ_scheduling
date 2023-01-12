@@ -24,7 +24,7 @@ Decision Support System that is [Minizinc](https://www.minizinc.org/) based. Dev
 ![Illustration Diagram](https://raw.githubusercontent.com/eugeneleo06/dss-univ_scheduling/main/Diagram.png)
 
 ## How to Run
-Run this command to run the local server with port :5000
+Run this command to run the local server with port **:5000**. Make sure the port is not blocked or being used by another services.
 
     flask -app main run
 
