@@ -6,15 +6,15 @@ Decision Support System that is [Minizinc](https://www.minizinc.org/) based. Dev
 
     brew install minizinc
 
-PyMzn
+**PyMzn**
 
     pip install pymzn
 
-Minizinc Python
+**Minizinc Python**
 
     pip install minizinc
 
-Flask
+**Flask**
 
     pip install Flask
 
