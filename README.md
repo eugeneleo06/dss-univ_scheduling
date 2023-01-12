@@ -2,7 +2,7 @@
 Decision Support System that is [Minizinc](https://www.minizinc.org/) based. Developed with **Constraint Programming** method, integrated with python library [PyMzn](http://paolodragone.com/pymzn/index.html) and [Python Minizinc](https://minizinc-python.readthedocs.io/en/latest/index.html). Implemented to web application with [Flask](https://flask.palletsprojects.com/en/2.2.x/) framework.
 
 ## Dependencies
-Minizinc
+**Minizinc**
 
     brew install minizinc
 
