@@ -26,7 +26,7 @@ Decision Support System that is [Minizinc](https://www.minizinc.org/) based. Dev
 ## How to Run
 Run this command to run the local server with port **:5000**. Make sure the port is not blocked or being used by another services.
 
-    flask -app main run
+    flask --app main run
 
 ## Paper Source
  - https://www.researchgate.net/publication/319122545_PENJADWALAN_KULIAH_OTOMATIS_DENGAN_CONSTRAINT_PROGRAMMING
